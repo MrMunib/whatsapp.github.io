@@ -14,4 +14,22 @@ body {
 
     width: 100%;
     height: 100vh;
+    position: relative;
+}
+
+img{
+    width: 100%;
+    height: 100vh;
+    object-fit: contain;
+}
+
+
+h1{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+    font-size: 4rem;
+    color: #008602a9;
 }
